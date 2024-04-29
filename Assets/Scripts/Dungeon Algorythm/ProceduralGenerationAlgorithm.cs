@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public static class ProceduralGenerationAlgorithm
@@ -19,6 +20,21 @@ public static class ProceduralGenerationAlgorithm
             previousPosition = newPosition;
          }
         return path;
+    }
+
+    public static List<Vector2Int> RandomWalkCorridor(Vector2Int startPosition, int corridorLength)
+    {
+        List<Vector2Int> corridor = new List<Vector2Int>();
+        var direction = Direction2D.GetRandomCardinalDirection();
+        var currenPosition = startPosition;
+        corridor.Add(currenPosition);
+
+        for (int i = 0; i < corridorLength; i++)
+        {
+            currenPosition += direction;
+            corridor.Add(currenPosition);
+        }
+        return corridor;
     }
 }
 
