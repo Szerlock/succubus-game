@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9385074d7b118564db921f3fd929a8b2
+guid: 900dbb1868d41b24bb78f4060700ca91
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,138 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dungeon_Character_2_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 17
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: baf13554ae7b21549a41f069900b6713
-      internalID: 490574337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_1
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 17
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92ac874aba0ed2348949d0cb63fa404d
-      internalID: -953514864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_2
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 17
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5f2913ae318def4194c42e1cf1df0a2
-      internalID: 1987973950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 17
-        width: 32
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2cb6d5ecaf871348b4e53fc056201e7
-      internalID: -587148651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_4
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 17
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1c74549dc9df3443983f7d539032b2f
-      internalID: 209410997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_5
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 17
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d87745df852cc0f498e7ddc55a4eca78
-      internalID: 506388993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_6
+      name: 32x32-bat-sprite_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 3
-        width: 9
+        y: 97
+        width: 25
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -250,19 +124,187 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd56ceee6b08c54ebf2e7f4267e8b02
-      internalID: -224715977
+      spriteID: 647f23e3e61938348a4aea0c0ddb147e
+      internalID: -497368328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_7
+      name: 32x32-bat-sprite_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 2
-        width: 12
+        x: 35
+        y: 101
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f61eabf704b554aa71ccd48c454b69
+      internalID: 1073273968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 107
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a5b07ac3fa8594180b11146187246a
+      internalID: -540062569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 106
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfb8f12582d2674889dd623bf24d165
+      internalID: 2146737821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac6e8ae16351a846b554dbddaaeb49c
+      internalID: 907185134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 74
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f2d59f338d4534ab09b1ca88367ed4
+      internalID: 1190558214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 75
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d118cbc9705a4ea318510514c0411
+      internalID: -1804873539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 69
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf25ea3f131d25e4e9b5ade6cf332c5d
+      internalID: -1321669132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4685a2abd8ed8499ad73a9904875cb
+      internalID: -1690896957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 45
+        width: 29
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,19 +313,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e023de3559b1254abb7fe53dc2f1502
-      internalID: -1082874613
+      spriteID: f1b11209bd2b2e8448653901386f5221
+      internalID: 331233599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_8
+      name: 32x32-bat-sprite_10
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 13
+        x: 97
+        y: 43
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eea817634230c4fac8baed464c8bf1
+      internalID: -175947288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 33
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab09f6cb7f27ba4296cc8a01f6119b8
+      internalID: 2121032493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 19
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,19 +376,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 506dbde40ed488041a05fc42b8bee330
-      internalID: 1884595095
+      spriteID: 031329e62a7b0a642b9c0cf832c78b79
+      internalID: 409128219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_9
+      name: 32x32-bat-sprite_13
       rect:
         serializedVersion: 2
-        x: 50
-        y: 1
-        width: 12
+        x: 38
+        y: 10
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdbeafda8a662c45a881e070ed8cdaf
+      internalID: 1092824237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32-bat-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 11
+        width: 17
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -313,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abf4fe602d8a67e4aa85ec7ef55b4ff5
-      internalID: 1391238237
+      spriteID: f3f524fb272c85b43852de95cf705724
+      internalID: -592257910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dungeon_Character_2_10
+      name: 32x32-bat-sprite_15
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
+        x: 102
+        y: 5
         width: 15
-        height: 15
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,50 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59a11c8c6f4b2f3439bffffe39b50a31
-      internalID: 1681797915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_11
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 1
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ae5fd754e9993243a502f2d82cbbf5a
-      internalID: 672991241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dungeon_Character_2_12
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 1
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17ea8e433c7028e4f94e70d88ceaafe1
-      internalID: 57145453
+      spriteID: 01dd3b31bd9a254498f22d71fe7e4002
+      internalID: -2084963807
       vertices: []
       indices: 
       edges: []
@@ -393,19 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dungeon_Character_2_0: 490574337
-      Dungeon_Character_2_1: -953514864
-      Dungeon_Character_2_10: 1681797915
-      Dungeon_Character_2_11: 672991241
-      Dungeon_Character_2_12: 57145453
-      Dungeon_Character_2_2: 1987973950
-      Dungeon_Character_2_3: -587148651
-      Dungeon_Character_2_4: 209410997
-      Dungeon_Character_2_5: 506388993
-      Dungeon_Character_2_6: -224715977
-      Dungeon_Character_2_7: -1082874613
-      Dungeon_Character_2_8: 1884595095
-      Dungeon_Character_2_9: 1391238237
+      32x32-bat-sprite_0: -497368328
+      32x32-bat-sprite_1: 1073273968
+      32x32-bat-sprite_10: -175947288
+      32x32-bat-sprite_11: 2121032493
+      32x32-bat-sprite_12: 409128219
+      32x32-bat-sprite_13: 1092824237
+      32x32-bat-sprite_14: -592257910
+      32x32-bat-sprite_15: -2084963807
+      32x32-bat-sprite_2: -540062569
+      32x32-bat-sprite_3: 2146737821
+      32x32-bat-sprite_4: 907185134
+      32x32-bat-sprite_5: 1190558214
+      32x32-bat-sprite_6: -1804873539
+      32x32-bat-sprite_7: -1321669132
+      32x32-bat-sprite_8: -1690896957
+      32x32-bat-sprite_9: 331233599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
