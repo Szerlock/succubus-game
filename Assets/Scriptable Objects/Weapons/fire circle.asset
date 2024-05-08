@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3fe182378c20524b8a40d2631c97878, type: 3}
+  m_Name: fire circle
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4675761485907963775, guid: 4f6c51b32c445304c8e8381a48a02f21, type: 3}
+  damage: 0
+  speed: 0
+  coolDownDuration: 3
+  pierce: 0
