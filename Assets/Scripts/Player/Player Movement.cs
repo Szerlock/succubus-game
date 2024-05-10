@@ -2,9 +2,6 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
-
-    public float moveSpeed;
-    Rigidbody2D rb;
     [HideInInspector]
     public float lastHorizontalVector;
     [HideInInspector]
@@ -14,8 +11,14 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public Vector2 lastMovedVector;
 
+    //References
+    Rigidbody2D rb;
+    PlayerStats player;
+
+
     void Start()
     {
+        player = GetComponent<PlayerStats>();
         rb = GetComponent<Rigidbody2D>();
         lastMovedVector = new Vector2(1, 0f); // if i dont do this if the player starts game and doesn't move the knife has no momentum 
     }
@@ -57,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
    
     void Move()
     {
-        rb.velocity = new Vector2 (moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rb.velocity = new Vector2 (moveDir.x * player.currentMoveSpeed, moveDir.y * player.currentMoveSpeed);
     }
 }
 

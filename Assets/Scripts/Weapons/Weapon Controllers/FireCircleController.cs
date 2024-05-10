@@ -14,7 +14,7 @@ public class FireCircleController : WeaponController
     protected override void Attact()
     {
         base.Attact();
-        GameObject spanwedCircle = Instantiate(weaponData.prefab);
+        GameObject spanwedCircle = Instantiate(weaponData.Prefab);
         spanwedCircle.transform.position = transform.position; //when the cirle is spawed the assigns position to be the same as the players position
         spanwedCircle.transform.parent = transform; // so its spawns below object
     }

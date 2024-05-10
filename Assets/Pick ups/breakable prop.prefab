@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4544073471864328701
+--- !u!1 &6911176701652599322
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7655338254593081151}
-  - component: {fileID: 8458271638472676949}
-  - component: {fileID: 5412956543811088983}
-  - component: {fileID: -2366112974621384939}
-  - component: {fileID: -729034688551799690}
-  - component: {fileID: 4566800705262202889}
+  - component: {fileID: 8058129765706047805}
+  - component: {fileID: 7665255902818131877}
+  - component: {fileID: 5852542798987742073}
+  - component: {fileID: 1102228968060165331}
+  - component: {fileID: -2701427312627239812}
   m_Layer: 0
-  m_Name: Bat
-  m_TagString: Enemy
+  m_Name: breakable prop
+  m_TagString: Props
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7655338254593081151
+--- !u!4 &8058129765706047805
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544073471864328701}
+  m_GameObject: {fileID: 6911176701652599322}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.0466907, y: -0.51397514, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8458271638472676949
+--- !u!212 &7665255902818131877
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544073471864328701}
+  m_GameObject: {fileID: 6911176701652599322}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,45 +76,37 @@ SpriteRenderer:
   m_SortingLayerID: -724536303
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1073273968, guid: 900dbb1868d41b24bb78f4060700ca91, type: 3}
+  m_Sprite: {fileID: 1328569786, guid: a1457ff48ba20c04a92491625d17e33c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.84375, y: 0.6875}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5412956543811088983
-Animator:
-  serializedVersion: 5
+--- !u!114 &5852542798987742073
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544073471864328701}
+  m_GameObject: {fileID: 6911176701652599322}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d847674714845b948979f4845a5760f4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!61 &-2366112974621384939
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c60fbf2e884e044ae45a289a2ee6d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+--- !u!61 &1102228968060165331
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544073471864328701}
+  m_GameObject: {fileID: 6911176701652599322}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -145,38 +136,28 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.84375, y: 0.6875}
-    newSize: {x: 0.84375, y: 0.6875}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.84375, y: 0.6875}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-729034688551799690
+--- !u!114 &-2701427312627239812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544073471864328701}
+  m_GameObject: {fileID: 6911176701652599322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9153f970d2959014b9f5eff88b5a8b8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 37a59fb8a1d15bd48834970704b11a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: d93ff8dfde16cfa4c8a4bdd4c02cc575, type: 2}
---- !u!114 &4566800705262202889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4544073471864328701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32b28375a56c145488c7c4931dfde024, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: d93ff8dfde16cfa4c8a4bdd4c02cc575, type: 2}
+  drops:
+  - name: Health potion
+    itemPrefab: {fileID: 3060034913527674901, guid: a55d658226d2b1c4e8aef8c319d3eda6, type: 3}
+    dropRate: 100

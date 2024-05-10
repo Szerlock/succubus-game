@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3fe182378c20524b8a40d2631c97878, type: 3}
-  m_Name: fire circle
+  m_Script: {fileID: 11500000, guid: c212531d7ccd54e4bbbd6c3404168fe3, type: 3}
+  m_Name: Succubus
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4675761485907963775, guid: 4f6c51b32c445304c8e8381a48a02f21, type: 3}
-  damage: 5
-  speed: 0
-  coolDownDuration: 3
-  pierce: 0
+  startingWeapon: {fileID: 0}
+  maxHealth: 900
+  recovery: 0
+  moveSpeed: 10
+  might: 0
+  projectileSpeed: 0
+  magnet: 1.6
