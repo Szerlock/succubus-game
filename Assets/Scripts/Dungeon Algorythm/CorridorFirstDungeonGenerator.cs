@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
@@ -9,7 +10,14 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
     [SerializeField]
     private int corridorLength = 14, corridorCount = 5;
     [SerializeField]
+    [Range(0.1f, 1)]
     private float roomPercent = 0.8f;
+
+    //PCG Data
+    private Dictionary<Vector2Int, HashSet<Vector2Int>> roomsDictionary = 
+        new Dictionary<Vector2Int, HashSet<Vector2Int>>();
+
+    private HashSet<Vector2Int> floorPositions, corridorPositions;
 
     protected override void RunProceduralGeneration()
     {
@@ -144,12 +152,21 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
         foreach (var roomPosition in roomToCreate)
         {
             var roomFloor = RunRandomWalk(randomWalkParameters, roomPosition);
+
+            SaveRoomData(roomPosition, roomFloor);
             roomPositions.UnionWith(roomFloor);
         }
         return roomPositions;        
     }
 
-    private List<List<Vector2Int>> CreateCorridors(HashSet<Vector2Int> floorPositions, HashSet<Vector2Int> potentialRoomPositions)
+    private void SaveRoomData(Vector2Int roomPosition, HashSet<Vector2Int> roomFloor)
+    {
+        roomsDictionary[roomPosition] = roomFloor;
+        
+    }
+
+    private List<List<Vector2Int>> CreateCorridors(HashSet<Vector2Int> floorPositions,
+        HashSet<Vector2Int> potentialRoomPositions)
     {
         var currentPosition = startPosition;
         potentialRoomPositions.Add(currentPosition);
@@ -164,6 +181,7 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
             potentialRoomPositions.Add(currentPosition);
             floorPositions.UnionWith(corridor);
         }
+        corridorPositions = new HashSet<Vector2Int>(floorPositions);
         return corridors;
     }
 }
