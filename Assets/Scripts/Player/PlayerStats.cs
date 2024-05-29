@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    [SerializeField]
     public CharacterScriptableObject characterData;
 
     //Current Stats

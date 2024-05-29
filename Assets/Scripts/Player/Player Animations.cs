@@ -35,11 +35,11 @@ public class PlayerAnimations : MonoBehaviour
     {
         if(pm.lastHorizontalVector < 0)
         {
-            sr.flipX = true;
+            sr.flipX = false;
         }
         else
         {
-            sr.flipX = false;
+            sr.flipX = true;
         }
 
     }
